@@ -1,0 +1,2288 @@
+{
+  "source": "fallback",
+  "config": {
+    "title": "Torneo Ass 'e Mazz 2026",
+    "playersCount": 65,
+    "cutoff": 25,
+    "phase": "Eliminatorie"
+  },
+  "players": [
+    {
+      "id": 1,
+      "name": "Annunziata Michele",
+      "nickname": ""
+    },
+    {
+      "id": 2,
+      "name": "La Marca Carlo",
+      "nickname": ""
+    },
+    {
+      "id": 3,
+      "name": "Sommese Antonio",
+      "nickname": ""
+    },
+    {
+      "id": 4,
+      "name": "Annunziata Raffaele",
+      "nickname": ""
+    },
+    {
+      "id": 5,
+      "name": "La Marca Pasquale",
+      "nickname": ""
+    },
+    {
+      "id": 6,
+      "name": "Panico Pasquale",
+      "nickname": ""
+    },
+    {
+      "id": 7,
+      "name": "Ambrosino Michele",
+      "nickname": ""
+    },
+    {
+      "id": 8,
+      "name": "Ambrosino Raffaele",
+      "nickname": ""
+    },
+    {
+      "id": 9,
+      "name": "Nappo Angelo",
+      "nickname": ""
+    },
+    {
+      "id": 10,
+      "name": "Cavallaro Erasmo",
+      "nickname": ""
+    },
+    {
+      "id": 11,
+      "name": "Notaro Giacomo",
+      "nickname": ""
+    },
+    {
+      "id": 12,
+      "name": "Scognamiglio Alfredo",
+      "nickname": ""
+    },
+    {
+      "id": 13,
+      "name": "Del Vecchio Diego",
+      "nickname": ""
+    },
+    {
+      "id": 14,
+      "name": "Beracci Lucio",
+      "nickname": ""
+    },
+    {
+      "id": 15,
+      "name": "De Falco Andrea",
+      "nickname": ""
+    },
+    {
+      "id": 16,
+      "name": "Beracci Benedetto",
+      "nickname": ""
+    },
+    {
+      "id": 17,
+      "name": "Tufano Giovanni",
+      "nickname": ""
+    },
+    {
+      "id": 18,
+      "name": "Ambrosino Gabriele",
+      "nickname": ""
+    },
+    {
+      "id": 19,
+      "name": "Strocchia Franco",
+      "nickname": ""
+    },
+    {
+      "id": 20,
+      "name": "Morelli Carmine",
+      "nickname": ""
+    },
+    {
+      "id": 21,
+      "name": "Tufano Raffaele",
+      "nickname": ""
+    },
+    {
+      "id": 22,
+      "name": "Napolitano Antonio",
+      "nickname": ""
+    },
+    {
+      "id": 23,
+      "name": "Notaro Massimo",
+      "nickname": ""
+    },
+    {
+      "id": 24,
+      "name": "Pierro Giuseppe",
+      "nickname": ""
+    },
+    {
+      "id": 25,
+      "name": "Giugliano Francesco",
+      "nickname": ""
+    },
+    {
+      "id": 26,
+      "name": "Gesso Marco",
+      "nickname": ""
+    },
+    {
+      "id": 27,
+      "name": "Napolitano Angelo",
+      "nickname": ""
+    },
+    {
+      "id": 28,
+      "name": "Fontanella Carmine",
+      "nickname": ""
+    },
+    {
+      "id": 29,
+      "name": "Nappi Nestore",
+      "nickname": ""
+    },
+    {
+      "id": 30,
+      "name": "Tufano Giuseppe",
+      "nickname": ""
+    },
+    {
+      "id": 31,
+      "name": "Polacco Tommaso",
+      "nickname": ""
+    },
+    {
+      "id": 32,
+      "name": "Marotta Pasquale",
+      "nickname": ""
+    },
+    {
+      "id": 33,
+      "name": "Franzese Francesco",
+      "nickname": ""
+    },
+    {
+      "id": 34,
+      "name": "Fontanella Giuseppe",
+      "nickname": ""
+    },
+    {
+      "id": 35,
+      "name": "Panico Giuseppe",
+      "nickname": ""
+    },
+    {
+      "id": 36,
+      "name": "Moccia Biagio",
+      "nickname": ""
+    },
+    {
+      "id": 37,
+      "name": "Spallone Carmine",
+      "nickname": ""
+    },
+    {
+      "id": 38,
+      "name": "Mauro Nicola",
+      "nickname": ""
+    },
+    {
+      "id": 39,
+      "name": "Ambrosino Lello",
+      "nickname": ""
+    },
+    {
+      "id": 40,
+      "name": "Carbone Felice",
+      "nickname": ""
+    },
+    {
+      "id": 41,
+      "name": "Nocerino Nunzio",
+      "nickname": ""
+    },
+    {
+      "id": 42,
+      "name": "Guerriero Giuseppe",
+      "nickname": ""
+    },
+    {
+      "id": 43,
+      "name": "Ruotolo Sabatino",
+      "nickname": ""
+    },
+    {
+      "id": 44,
+      "name": "Abbate Michele",
+      "nickname": ""
+    },
+    {
+      "id": 45,
+      "name": "Isernia Antonio",
+      "nickname": ""
+    },
+    {
+      "id": 46,
+      "name": "Cafarelli Manolo",
+      "nickname": ""
+    },
+    {
+      "id": 47,
+      "name": "Casoria Felice",
+      "nickname": ""
+    },
+    {
+      "id": 48,
+      "name": "Nspolitano Carlo",
+      "nickname": ""
+    },
+    {
+      "id": 49,
+      "name": "Tufano Michele",
+      "nickname": ""
+    },
+    {
+      "id": 50,
+      "name": "Bartolo",
+      "nickname": ""
+    },
+    {
+      "id": 51,
+      "name": "Domenico",
+      "nickname": ""
+    },
+    {
+      "id": 52,
+      "name": "Montanera Michele",
+      "nickname": ""
+    },
+    {
+      "id": 53,
+      "name": "Gaita Rossano",
+      "nickname": ""
+    },
+    {
+      "id": 54,
+      "name": "Giugliano Domenico",
+      "nickname": ""
+    },
+    {
+      "id": 55,
+      "name": "Montanera Raffaele",
+      "nickname": ""
+    },
+    {
+      "id": 56,
+      "name": "Oreste",
+      "nickname": ""
+    },
+    {
+      "id": 57,
+      "name": "Sirico Crescenzo",
+      "nickname": ""
+    },
+    {
+      "id": 58,
+      "name": "Mauro Salvatore",
+      "nickname": ""
+    },
+    {
+      "id": 59,
+      "name": "Angiero Anna",
+      "nickname": ""
+    },
+    {
+      "id": 60,
+      "name": "Di Grazia Salvatore",
+      "nickname": ""
+    },
+    {
+      "id": 61,
+      "name": "Mauro Cantice",
+      "nickname": ""
+    },
+    {
+      "id": 62,
+      "name": "Corbo Angelo",
+      "nickname": ""
+    },
+    {
+      "id": 63,
+      "name": "Fuschillo Francesco",
+      "nickname": ""
+    },
+    {
+      "id": 64,
+      "name": "Tufano Michele 2",
+      "nickname": ""
+    },
+    {
+      "id": 65,
+      "name": "Tufano Michele 3",
+      "nickname": ""
+    }
+  ],
+  "results": [
+    {
+      "turn": 1,
+      "table": "A",
+      "seat": 1,
+      "playerId": 1,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "A",
+      "seat": 2,
+      "playerId": 2,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "A",
+      "seat": 3,
+      "playerId": 3,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "A",
+      "seat": 4,
+      "playerId": 4,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "A",
+      "seat": 5,
+      "playerId": 5,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "B",
+      "seat": 1,
+      "playerId": 6,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "B",
+      "seat": 2,
+      "playerId": 7,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "B",
+      "seat": 3,
+      "playerId": 8,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "B",
+      "seat": 4,
+      "playerId": 9,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "B",
+      "seat": 5,
+      "playerId": 10,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "C",
+      "seat": 1,
+      "playerId": 11,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "C",
+      "seat": 2,
+      "playerId": 12,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "C",
+      "seat": 3,
+      "playerId": 13,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "C",
+      "seat": 4,
+      "playerId": 14,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "C",
+      "seat": 5,
+      "playerId": 15,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "D",
+      "seat": 1,
+      "playerId": 16,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "D",
+      "seat": 2,
+      "playerId": 17,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "D",
+      "seat": 3,
+      "playerId": 18,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "D",
+      "seat": 4,
+      "playerId": 19,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "D",
+      "seat": 5,
+      "playerId": 20,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "E",
+      "seat": 1,
+      "playerId": 21,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "E",
+      "seat": 2,
+      "playerId": 22,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "E",
+      "seat": 3,
+      "playerId": 23,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "E",
+      "seat": 4,
+      "playerId": 24,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "E",
+      "seat": 5,
+      "playerId": 25,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "F",
+      "seat": 1,
+      "playerId": 26,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "F",
+      "seat": 2,
+      "playerId": 27,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "F",
+      "seat": 3,
+      "playerId": 28,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "F",
+      "seat": 4,
+      "playerId": 29,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "F",
+      "seat": 5,
+      "playerId": 30,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "G",
+      "seat": 1,
+      "playerId": 31,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "G",
+      "seat": 2,
+      "playerId": 32,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "G",
+      "seat": 3,
+      "playerId": 33,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "G",
+      "seat": 4,
+      "playerId": 34,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "G",
+      "seat": 5,
+      "playerId": 35,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "H",
+      "seat": 1,
+      "playerId": 36,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "H",
+      "seat": 2,
+      "playerId": 37,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "H",
+      "seat": 3,
+      "playerId": 38,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "H",
+      "seat": 4,
+      "playerId": 39,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "H",
+      "seat": 5,
+      "playerId": 40,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "I",
+      "seat": 1,
+      "playerId": 41,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "I",
+      "seat": 2,
+      "playerId": 42,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "I",
+      "seat": 3,
+      "playerId": 43,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "I",
+      "seat": 4,
+      "playerId": 44,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "I",
+      "seat": 5,
+      "playerId": 45,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "J",
+      "seat": 1,
+      "playerId": 46,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "J",
+      "seat": 2,
+      "playerId": 47,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "J",
+      "seat": 3,
+      "playerId": 48,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "J",
+      "seat": 4,
+      "playerId": 49,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "J",
+      "seat": 5,
+      "playerId": 50,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "K",
+      "seat": 1,
+      "playerId": 51,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "K",
+      "seat": 2,
+      "playerId": 52,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "K",
+      "seat": 3,
+      "playerId": 53,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "K",
+      "seat": 4,
+      "playerId": 54,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "K",
+      "seat": 5,
+      "playerId": 55,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "L",
+      "seat": 1,
+      "playerId": 56,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "L",
+      "seat": 2,
+      "playerId": 57,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "L",
+      "seat": 3,
+      "playerId": 58,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "L",
+      "seat": 4,
+      "playerId": 59,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "L",
+      "seat": 5,
+      "playerId": 60,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "M",
+      "seat": 1,
+      "playerId": 61,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "M",
+      "seat": 2,
+      "playerId": 62,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "M",
+      "seat": 3,
+      "playerId": 63,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "M",
+      "seat": 4,
+      "playerId": 64,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 1,
+      "table": "M",
+      "seat": 5,
+      "playerId": 65,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "A",
+      "seat": 1,
+      "playerId": 1,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "A",
+      "seat": 2,
+      "playerId": 62,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "A",
+      "seat": 3,
+      "playerId": 58,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "A",
+      "seat": 4,
+      "playerId": 54,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "A",
+      "seat": 5,
+      "playerId": 50,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "B",
+      "seat": 1,
+      "playerId": 6,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "B",
+      "seat": 2,
+      "playerId": 2,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "B",
+      "seat": 3,
+      "playerId": 63,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "B",
+      "seat": 4,
+      "playerId": 59,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "B",
+      "seat": 5,
+      "playerId": 55,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "C",
+      "seat": 1,
+      "playerId": 11,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "C",
+      "seat": 2,
+      "playerId": 7,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "C",
+      "seat": 3,
+      "playerId": 3,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "C",
+      "seat": 4,
+      "playerId": 64,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "C",
+      "seat": 5,
+      "playerId": 60,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "D",
+      "seat": 1,
+      "playerId": 16,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "D",
+      "seat": 2,
+      "playerId": 12,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "D",
+      "seat": 3,
+      "playerId": 8,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "D",
+      "seat": 4,
+      "playerId": 4,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "D",
+      "seat": 5,
+      "playerId": 65,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "E",
+      "seat": 1,
+      "playerId": 21,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "E",
+      "seat": 2,
+      "playerId": 17,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "E",
+      "seat": 3,
+      "playerId": 13,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "E",
+      "seat": 4,
+      "playerId": 9,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "E",
+      "seat": 5,
+      "playerId": 5,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "F",
+      "seat": 1,
+      "playerId": 26,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "F",
+      "seat": 2,
+      "playerId": 22,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "F",
+      "seat": 3,
+      "playerId": 18,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "F",
+      "seat": 4,
+      "playerId": 14,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "F",
+      "seat": 5,
+      "playerId": 10,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "G",
+      "seat": 1,
+      "playerId": 31,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "G",
+      "seat": 2,
+      "playerId": 27,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "G",
+      "seat": 3,
+      "playerId": 23,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "G",
+      "seat": 4,
+      "playerId": 19,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "G",
+      "seat": 5,
+      "playerId": 15,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "H",
+      "seat": 1,
+      "playerId": 36,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "H",
+      "seat": 2,
+      "playerId": 32,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "H",
+      "seat": 3,
+      "playerId": 28,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "H",
+      "seat": 4,
+      "playerId": 24,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "H",
+      "seat": 5,
+      "playerId": 20,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "I",
+      "seat": 1,
+      "playerId": 41,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "I",
+      "seat": 2,
+      "playerId": 37,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "I",
+      "seat": 3,
+      "playerId": 33,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "I",
+      "seat": 4,
+      "playerId": 29,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "I",
+      "seat": 5,
+      "playerId": 25,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "J",
+      "seat": 1,
+      "playerId": 46,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "J",
+      "seat": 2,
+      "playerId": 42,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "J",
+      "seat": 3,
+      "playerId": 38,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "J",
+      "seat": 4,
+      "playerId": 34,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "J",
+      "seat": 5,
+      "playerId": 30,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "K",
+      "seat": 1,
+      "playerId": 51,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "K",
+      "seat": 2,
+      "playerId": 47,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "K",
+      "seat": 3,
+      "playerId": 43,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "K",
+      "seat": 4,
+      "playerId": 39,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "K",
+      "seat": 5,
+      "playerId": 35,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "L",
+      "seat": 1,
+      "playerId": 56,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "L",
+      "seat": 2,
+      "playerId": 52,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "L",
+      "seat": 3,
+      "playerId": 48,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "L",
+      "seat": 4,
+      "playerId": 44,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "L",
+      "seat": 5,
+      "playerId": 40,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "M",
+      "seat": 1,
+      "playerId": 61,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "M",
+      "seat": 2,
+      "playerId": 57,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "M",
+      "seat": 3,
+      "playerId": 53,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "M",
+      "seat": 4,
+      "playerId": 49,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 2,
+      "table": "M",
+      "seat": 5,
+      "playerId": 45,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "A",
+      "seat": 1,
+      "playerId": 1,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "A",
+      "seat": 2,
+      "playerId": 57,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "A",
+      "seat": 3,
+      "playerId": 48,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "A",
+      "seat": 4,
+      "playerId": 39,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "A",
+      "seat": 5,
+      "playerId": 30,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "B",
+      "seat": 1,
+      "playerId": 6,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "B",
+      "seat": 2,
+      "playerId": 62,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "B",
+      "seat": 3,
+      "playerId": 53,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "B",
+      "seat": 4,
+      "playerId": 44,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "B",
+      "seat": 5,
+      "playerId": 35,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "C",
+      "seat": 1,
+      "playerId": 11,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "C",
+      "seat": 2,
+      "playerId": 2,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "C",
+      "seat": 3,
+      "playerId": 58,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "C",
+      "seat": 4,
+      "playerId": 49,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "C",
+      "seat": 5,
+      "playerId": 40,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "D",
+      "seat": 1,
+      "playerId": 16,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "D",
+      "seat": 2,
+      "playerId": 7,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "D",
+      "seat": 3,
+      "playerId": 63,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "D",
+      "seat": 4,
+      "playerId": 54,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "D",
+      "seat": 5,
+      "playerId": 45,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "E",
+      "seat": 1,
+      "playerId": 21,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "E",
+      "seat": 2,
+      "playerId": 12,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "E",
+      "seat": 3,
+      "playerId": 3,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "E",
+      "seat": 4,
+      "playerId": 59,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "E",
+      "seat": 5,
+      "playerId": 50,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "F",
+      "seat": 1,
+      "playerId": 26,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "F",
+      "seat": 2,
+      "playerId": 17,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "F",
+      "seat": 3,
+      "playerId": 8,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "F",
+      "seat": 4,
+      "playerId": 64,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "F",
+      "seat": 5,
+      "playerId": 55,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "G",
+      "seat": 1,
+      "playerId": 31,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "G",
+      "seat": 2,
+      "playerId": 22,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "G",
+      "seat": 3,
+      "playerId": 13,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "G",
+      "seat": 4,
+      "playerId": 4,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "G",
+      "seat": 5,
+      "playerId": 60,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "H",
+      "seat": 1,
+      "playerId": 36,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "H",
+      "seat": 2,
+      "playerId": 27,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "H",
+      "seat": 3,
+      "playerId": 18,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "H",
+      "seat": 4,
+      "playerId": 9,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "H",
+      "seat": 5,
+      "playerId": 65,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "I",
+      "seat": 1,
+      "playerId": 41,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "I",
+      "seat": 2,
+      "playerId": 32,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "I",
+      "seat": 3,
+      "playerId": 23,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "I",
+      "seat": 4,
+      "playerId": 14,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "I",
+      "seat": 5,
+      "playerId": 5,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "J",
+      "seat": 1,
+      "playerId": 46,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "J",
+      "seat": 2,
+      "playerId": 37,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "J",
+      "seat": 3,
+      "playerId": 28,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "J",
+      "seat": 4,
+      "playerId": 19,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "J",
+      "seat": 5,
+      "playerId": 10,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "K",
+      "seat": 1,
+      "playerId": 51,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "K",
+      "seat": 2,
+      "playerId": 42,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "K",
+      "seat": 3,
+      "playerId": 33,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "K",
+      "seat": 4,
+      "playerId": 24,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "K",
+      "seat": 5,
+      "playerId": 15,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "L",
+      "seat": 1,
+      "playerId": 56,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "L",
+      "seat": 2,
+      "playerId": 47,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "L",
+      "seat": 3,
+      "playerId": 38,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "L",
+      "seat": 4,
+      "playerId": 29,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "L",
+      "seat": 5,
+      "playerId": 20,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "M",
+      "seat": 1,
+      "playerId": 61,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "M",
+      "seat": 2,
+      "playerId": 52,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "M",
+      "seat": 3,
+      "playerId": 43,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "M",
+      "seat": 4,
+      "playerId": 34,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    },
+    {
+      "turn": 3,
+      "table": "M",
+      "seat": 5,
+      "playerId": 25,
+      "gamePoints": null,
+      "position": null,
+      "sole": 0,
+      "note": ""
+    }
+  ]
+}
