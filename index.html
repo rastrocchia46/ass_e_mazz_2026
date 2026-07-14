@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <meta name="theme-color" content="#071c2e">
+  <meta name="description" content="Classifica generale, risultati dei tavoli e regolamento ufficiale del Torneo Ass 'e Mazz 2026.">
+  <title>Torneo Ass 'e Mazz 2026</title>
+  <link rel="stylesheet" href="styles-v7.css?v=20260714-7">
+  <script defer src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
+  <script defer src="site-config-v7.js?v=20260714-7"></script>
+  <script defer src="app-v7.js?v=20260714-7"></script>
+</head>
+<body>
+  <div id="loading" class="loading-screen" role="status" aria-live="polite">
+    <div class="loader-card">
+      <img class="loader-asso" src="assets/asso-bastoni-v3.png?v=20260713-3" alt="Asso di bastoni">
+      <div class="loader-partners" aria-label="Associazioni organizzatrici">
+        <img src="assets/logo-agm.png" alt="AGM Production">
+        <span>×</span>
+        <img src="assets/logo-capocaccia.png" alt="Rione Capocaccia Saviano">
+      </div>
+      <p>Caricamento del torneo…</p>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-pattern" aria-hidden="true">♣ ♦ ♠ ♥</div>
+    <div class="container hero-inner">
+      <div class="card-fan" aria-hidden="true">
+        <img class="hero-asso" src="assets/asso-bastoni-v3.png?v=20260713-3" alt="">
+      </div>
+
+      <div class="hero-copy">
+        <p class="eyebrow" id="phase-label">Fase eliminatoria</p>
+        <h1 id="tournament-title">Torneo Ass 'e Mazz 2026</h1>
+        <p class="hero-subtitle">Tresette a perdere · classifica e risultati ufficiali</p>
+        <div class="hero-meta" aria-label="Informazioni evento">
+          <span><strong>Piazza Vittoria · Saviano</strong></span>
+        </div>
+      </div>
+
+      <div class="partner-panel" aria-label="Associazioni organizzatrici">
+        <p>Organizzato da</p>
+        <div class="partner-logos">
+          <img src="assets/logo-agm.png" alt="AGM Production">
+          <span>×</span>
+          <img src="assets/logo-capocaccia.png" alt="Rione Capocaccia Saviano">
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <nav class="main-nav" aria-label="Navigazione principale">
+    <div class="container nav-scroll">
+      <button class="nav-button active" data-view="dashboard" aria-current="page">Panoramica</button>
+      <button class="nav-button" data-view="classifica">Classifica</button>
+      <button class="nav-button" data-view="tavoli">Eliminatorie</button>
+      <button class="nav-button" data-view="finali">Fasi finali</button>
+      <button class="nav-button" data-view="regolamento">Regolamento</button>
+    </div>
+  </nav>
+
+  <main class="container main-content">
+    <div id="error-banner" class="alert error hidden" role="alert"></div>
+    <div id="warning-banner" class="alert warning hidden" role="status"></div>
+
+    <section id="dashboard" class="view active" aria-labelledby="dashboard-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">Situazione del torneo</p>
+          <h2 id="dashboard-title">Panoramica</h2>
+        </div>
+        <span class="status-pill" id="round-status">In attesa del primo turno</span>
+      </div>
+
+      <div class="stats-grid compact-stats">
+        <article class="stat-card">
+          <span>Giocatori</span>
+          <strong id="stat-players">—</strong>
+          <small>iscritti attuali</small>
+        </article>
+        <article class="stat-card accent">
+          <span id="stat-cutoff-label">Qualificazione</span>
+          <strong id="stat-cutoff">Top 25</strong>
+          <small id="stat-cutoff-detail">accedono agli ottavi</small>
+        </article>
+      </div>
+
+      <div class="dashboard-grid">
+        <article class="panel ranking-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="section-kicker" id="ranking-panel-kicker">Classifica provvisoria</p>
+              <h3 id="ranking-panel-title">Prime posizioni</h3>
+            </div>
+            <button class="text-button" data-open-view="classifica">Vedi classifica completa →</button>
+          </div>
+          <div id="top-ranking" class="compact-ranking empty-state">Nessun tavolo ancora completato.</div>
+        </article>
+
+        <article class="panel progress-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="section-kicker" id="progress-kicker">Avanzamento</p>
+              <h3 id="progress-title">Fase eliminatoria</h3>
+            </div>
+          </div>
+          <div class="progress-ring-wrap">
+            <div class="progress-ring" id="progress-ring" style="--progress:0">
+              <div><strong id="progress-percent">0%</strong><span>completato</span></div>
+            </div>
+            <div class="progress-copy">
+              <div><span>Da giocare</span><strong id="progress-todo">—</strong></div>
+              <div><span>In corso</span><strong id="progress-live">—</strong></div>
+              <div><span>Conclusi</span><strong id="progress-done">—</strong></div>
+            </div>
+          </div>
+          <div class="rule-reminder">
+            <span>Regola fondamentale</span>
+            <p>La partita termina immediatamente quando un giocatore raggiunge <strong>81 punti</strong>.</p>
+          </div>
+        </article>
+      </div>
+
+      <article class="panel finals-board-panel">
+        <div class="panel-heading">
+          <div>
+            <p class="section-kicker">Percorso verso il titolo</p>
+            <h3>Tabellone delle fasi finali</h3>
+          </div>
+          <button class="text-button" data-open-view="finali">Apri tavoli e risultati →</button>
+        </div>
+        <div class="finals-board-scroll">
+          <div id="finals-board" class="finals-board"></div>
+        </div>
+      </article>
+    </section>
+
+    <section id="classifica" class="view" aria-labelledby="ranking-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">Graduatoria generale</p>
+          <h2 id="ranking-title">Classifica generale</h2>
+        </div>
+      </div>
+
+      <div class="controls-bar">
+        <label class="search-field">
+          Cerca giocatore
+          <input id="ranking-search" type="search" placeholder="Nome o numero…" autocomplete="off">
+        </label>
+        <div class="legend-inline" aria-label="Legenda classifica">
+          <span><i class="legend-dot qualified"></i> Zona qualificazione</span>
+          <span><i class="legend-dot playoff"></i> Parità da risolvere</span>
+        </div>
+      </div>
+
+      <div id="tie-notice" class="alert warning hidden"></div>
+
+      <div class="table-wrap">
+        <table class="ranking-table">
+          <thead>
+            <tr>
+              <th>Pos.</th>
+              <th>Giocatore</th>
+              <th class="center">Partite</th>
+              <th class="center">Sóle</th>
+              <th class="center score-main">Punti</th>
+              <th class="center tie-col">Miglior piazz.</th>
+              <th class="center tie-col">Min. punti</th>
+              <th class="center tie-col">Punti totali</th>
+            </tr>
+          </thead>
+          <tbody id="ranking-body"></tbody>
+        </table>
+      </div>
+      <p class="table-note">Ordine di spareggio: maggior numero di sóle, miglior piazzamento, minor punteggio in una partita e minor punteggio complessivo. In caso di ulteriore parità è previsto il sorteggio.</p>
+    </section>
+
+    <section id="tavoli" class="view" aria-labelledby="tables-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">Partite eliminatorie</p>
+          <h2 id="tables-title">Tavoli e risultati</h2>
+        </div>
+      </div>
+
+      <div class="round-tabs" role="tablist" aria-label="Selezione turno">
+        <button class="round-tab active" data-round="1" role="tab">Turno 1</button>
+        <button class="round-tab" data-round="2" role="tab">Turno 2</button>
+        <button class="round-tab" data-round="3" role="tab">Turno 3</button>
+      </div>
+      <div id="tables-summary" class="tables-summary"></div>
+      <div id="tables-grid" class="tables-grid"></div>
+    </section>
+
+    <section id="finali" class="view" aria-labelledby="finals-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">Dagli ottavi al titolo</p>
+          <h2 id="finals-title">Fasi finali</h2>
+        </div>
+        <span class="status-pill" id="finals-status">Ottavi di finale</span>
+      </div>
+
+      <div class="final-round-tabs" role="tablist" aria-label="Selezione fase finale">
+        <button class="final-round-tab active" data-final-stage="ottavi" role="tab">Ottavi</button>
+        <button class="final-round-tab" data-final-stage="quarti" role="tab">Quarti</button>
+        <button class="final-round-tab" data-final-stage="semifinali" role="tab">Semifinali</button>
+        <button class="final-round-tab" data-final-stage="finale" role="tab">Finale</button>
+      </div>
+
+      <div id="final-stage-note" class="final-stage-note"></div>
+      <div id="final-tables-summary" class="tables-summary"></div>
+      <div id="final-tables-grid" class="tables-grid finals-tables-grid"></div>
+    </section>
+
+    <section id="regolamento" class="view" aria-labelledby="rules-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">Documento ufficiale</p>
+          <h2 id="rules-title">Regolamento</h2>
+        </div>
+        <div class="document-actions">
+          <a class="primary-button" href="docs/Regolamento_Torneo_Ass_e_Mazz.pdf" target="_blank" rel="noopener">Apri il PDF</a>
+          <a class="secondary-button" href="docs/Accoppiamenti.pdf" target="_blank" rel="noopener">Apri gli accoppiamenti</a>
+        </div>
+      </div>
+
+      <div class="rules-highlights">
+        <article><strong>3</strong><span>partite per giocatore</span></article>
+        <article><strong>5</strong><span>giocatori per tavolo</span></article>
+        <article><strong>81</strong><span>punti: fine immediata</span></article>
+        <article><strong>25</strong><span>qualificati agli ottavi</span></article>
+      </div>
+
+      <div class="rules-grid">
+        <article class="panel">
+          <p class="section-kicker">Punteggi del tavolo</p>
+          <h3>Assegnazione alla classifica</h3>
+          <div class="score-ladder">
+            <div><span>1° classificato</span><strong>9 punti</strong></div>
+            <div><span>2° classificato</span><strong>6 punti</strong></div>
+            <div><span>3° classificato</span><strong>4 punti</strong></div>
+            <div><span>4° classificato</span><strong>2 punti</strong></div>
+            <div><span>5° classificato</span><strong>1 punto</strong></div>
+          </div>
+          <div class="bonus-callout"><strong>Bonus “Sóla”</strong><span>+2 punti in classifica per ogni mano da 21 punti.</span></div>
+        </article>
+
+        <article class="panel">
+          <p class="section-kicker">Criteri di spareggio</p>
+          <h3>Ordine di priorità</h3>
+          <ol class="tie-list">
+            <li>Maggior numero di sóle.</li>
+            <li>Miglior piazzamento ottenuto in una partita.</li>
+            <li>Minor punteggio assoluto in una partita.</li>
+            <li>Minor punteggio complessivo nelle tre partite.</li>
+            <li>Sorteggio.</li>
+          </ol>
+        </article>
+      </div>
+
+      <article class="panel finals-panel">
+        <p class="section-kicker">Fasi finali</p>
+        <h3>Il percorso verso il tavolo finale</h3>
+        <div class="finals-flow">
+          <div><strong>25</strong><span>Ottavi</span><small>5 tavoli · passano i primi 3</small></div>
+          <i>→</i>
+          <div><strong>15</strong><span>Quarti</span><small>primi 3 + miglior 4°</small></div>
+          <i>→</i>
+          <div><strong>10</strong><span>Semifinali</span><small>primi 2 + miglior 3°</small></div>
+          <i>→</i>
+          <div class="winner-step"><strong>5</strong><span>Finale</span><small>un tavolo per il titolo</small></div>
+        </div>
+      </article>
+
+      <article class="panel pdf-panel">
+        <div class="panel-heading">
+          <div>
+            <p class="section-kicker">Consultazione completa</p>
+            <h3>Regolamento ufficiale</h3>
+          </div>
+        </div>
+        <iframe src="docs/Regolamento_Torneo_Ass_e_Mazz.pdf#view=FitH" title="Regolamento ufficiale Torneo Ass 'e Mazz"></iframe>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>Torneo Ass 'e Mazz · 25 luglio 2026</span>
+      <small>AGM Production × Rione Capocaccia · Dati calcolati automaticamente dal file Excel.</small>
+    </div>
+  </footer>
+</body>
+</html>
